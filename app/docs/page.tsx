@@ -320,14 +320,14 @@ export default function DocumentationPage() {
                   <h4 className="font-medium mb-2">Installation</h4>
                   <pre className="text-xs bg-muted p-3 rounded overflow-x-auto">
                     {`# Clone the repository
-git clone <repository-url>
-cd reviews-dashboard
+git clone https://github.com/nhattytw/flex-living-assessment
+cd flex-living-assessment
 
 # Install dependencies
-pnpm install
+npm install
 
 # Run development server
-pnpm dev
+npm run dev
 
 # Open http://localhost:3000`}
                   </pre>
