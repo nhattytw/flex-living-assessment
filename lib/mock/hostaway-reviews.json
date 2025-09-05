@@ -1,0 +1,230 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2025-08-21 22:45:14",
+      "guestName": "Shane Finkelstein",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7454,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 4,
+      "publicReview": "Great location, but the check-in process was a bit confusing.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 6 },
+        { "category": "location", "rating": 8 }
+      ],
+      "submittedAt": "2025-08-11 18:20:00",
+      "guestName": "Maria Lopez",
+      "listingName": "1B N2 B - Central Soho Flat"
+    },
+    {
+      "id": 7455,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 5,
+      "publicReview": "Absolutely spotless and very comfortable. Highly recommend.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "comfort", "rating": 10 },
+        { "category": "location", "rating": 8 }
+      ],
+      "submittedAt": "2025-07-25 09:15:00",
+      "guestName": "James Miller",
+      "listingName": "3B N3 C - Hyde Park Apartment"
+    },
+    {
+      "id": 7456,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 3,
+      "publicReview": "Nice flat, but a bit noisy at night due to nearby bars.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "comfort", "rating": 6 },
+        { "category": "location", "rating": 6 }
+      ],
+      "submittedAt": "2025-10-08 21:00:00",
+      "guestName": "Elena Petrova",
+      "listingName": "1B N2 B - Central Soho Flat"
+    },
+    {
+      "id": 7457,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 4,
+      "publicReview": "The host was very responsive, and the amenities were excellent.",
+      "reviewCategory": [
+        { "category": "communication", "rating": 10 },
+        { "category": "amenities", "rating": 8 },
+        { "category": "value", "rating": 8 }
+      ],
+      "submittedAt": "2025-07-15 14:40:00",
+      "guestName": "Oliver Chen",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7458,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 3,
+      "publicReview": "The flat was okay, but the WiFi was unreliable during my stay.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 6 },
+        { "category": "communication", "rating": 8 },
+        { "category": "amenities", "rating": 4 }
+      ],
+      "submittedAt": "2025-05-08 10:25:00",
+      "guestName": "Sophia Rossi",
+      "listingName": "Studio N4 D - Camden Loft"
+    },
+    {
+      "id": 7459,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 5,
+      "publicReview": "Perfect stay! Quiet, modern, and very clean. Will return.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "comfort", "rating": 10 },
+        { "category": "location", "rating": 10 }
+      ],
+      "submittedAt": "2025-07-20 16:00:00",
+      "guestName": "Hiro Tanaka",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7460,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 2,
+      "publicReview": "Unfortunately, the apartment was not clean upon arrival.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 4 },
+        { "category": "communication", "rating": 6 },
+        { "category": "value", "rating": 4 }
+      ],
+      "submittedAt": "2025-09-08 12:10:00",
+      "guestName": "Daniel Schmidt",
+      "listingName": "1B N2 B - Central Soho Flat"
+    },
+    {
+      "id": 7461,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 4,
+      "publicReview": "Good location and nice design, but heating could be better.",
+      "reviewCategory": [
+        { "category": "comfort", "rating": 6 },
+        { "category": "location", "rating": 8 },
+        { "category": "amenities", "rating": 8 }
+      ],
+      "submittedAt": "2025-07-30 19:50:00",
+      "guestName": "Laura Kim",
+      "listingName": "Studio N4 D - Camden Loft"
+    },
+    {
+      "id": 7462,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 4,
+      "publicReview": "Lovely host, great communication, and very cozy place.",
+      "reviewCategory": [
+        { "category": "communication", "rating": 10 },
+        { "category": "comfort", "rating": 8 },
+        { "category": "cleanliness", "rating": 8 }
+      ],
+      "submittedAt": "2025-05-12 08:30:00",
+      "guestName": "Marta Nowak",
+      "listingName": "3B N3 C - Hyde Park Apartment"
+    },
+    {
+      "id": 8001,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 5,
+      "publicReview": "A truly magical stay in Montmartre. The loft was charming, clean, and had the most incredible view. Felt like a real Parisian for a few days. C'était parfait!",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "location", "rating": 10 },
+        { "category": "value", "rating": 8 }
+      ],
+      "submittedAt": "2025-05-20 11:00:00",
+      "guestName": "Amélie Dubois",
+      "listingName": "Loft P18 A - Montmartre Paris"
+    },
+    {
+      "id": 8002,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 4,
+      "publicReview": "The location is unbeatable, right on the Champs-Élysées. The apartment is luxurious and spacious. Lost one star because the street can be a bit loud, but that's expected. Overall, a fantastic experience.",
+      "reviewCategory": [
+        { "category": "comfort", "rating": 10 },
+        { "category": "location", "rating": 10 },
+        { "category": "cleanliness", "rating": 8 }
+      ],
+      "submittedAt": "2025-06-15 16:30:00",
+      "guestName": "Charles Leclerc",
+      "listingName": "3B P08 D - Champs-Élysées Flat"
+    },
+    {
+      "id": 8003,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 5,
+      "publicReview": "Waking up to the sounds of Fado music in Alfama was a dream. The loft has so much character and the view of the river is stunning. A perfect base for exploring Lisbon. Adorei!",
+      "reviewCategory": [
+        { "category": "location", "rating": 10 },
+        { "category": "comfort", "rating": 8 },
+        { "category": "value", "rating": 10 }
+      ],
+      "submittedAt": "2025-07-08 09:45:00",
+      "guestName": "Sofia Costa",
+      "listingName": "Loft PT12 C - Alfama Riverside"
+    },
+    {
+      "id": 8004,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 4,
+      "publicReview": "An authentic experience in the heart of the Kasbah. The house is beautifully decorated in a traditional style. It's a bit of a maze to get to, but that's part of the charm. Great for adventurous travelers.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "location", "rating": 8 },
+        { "category": "value", "rating": 8 }
+      ],
+      "submittedAt": "2025-08-11 14:00:00",
+      "guestName": "Karim Benzema",
+      "listingName": "2B DZ01 A - Kasbah Heritage"
+    },
+    {
+      "id": 8005,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 3,
+      "publicReview": "The loft in Montmartre is in a great area, but it's much smaller than the photos suggest. The stairs are also very steep. It's fine for a short trip but was a bit cramped for a full week.",
+      "reviewCategory": [
+        { "category": "location", "rating": 10 },
+        { "category": "comfort", "rating": 4 },
+        { "category": "value", "rating": 6 }
+      ],
+      "submittedAt": "2025-09-07 18:20:00",
+      "guestName": "Isabelle Moreau",
+      "listingName": "Loft P18 A - Montmartre Paris"
+    }
+  ]
+}

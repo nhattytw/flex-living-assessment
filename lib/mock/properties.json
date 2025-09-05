@@ -1,0 +1,413 @@
+{
+  "shoreditch-heights": {
+    "id": "shoreditch-heights",
+    "name": "Shoreditch Heights",
+    "location": "Shoreditch, London",
+    "price": 180,
+    "listingName": "2B N1 A - 29 Shoreditch Heights",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": [
+      "High-speed WiFi",
+      "Smart TV",
+      "Air Conditioning",
+      "Dedicated Workspace"
+    ],
+    "allAmenities": {
+      "Living room": [
+        { "name": "55\" 4K HDR Smart TV", "icon": "Tv" },
+        { "name": "Sonos Sound System", "icon": "Volume2" },
+        { "name": "Record Player", "icon": "Disc3" }
+      ],
+      "Internet & office": [
+        { "name": "Fiber Optic Gigabit Internet", "icon": "Wifi" },
+        { "name": "Ergonomic Chair & Desk", "icon": "Monitor" }
+      ],
+      "Kitchen & dining": [
+        { "name": "Nespresso Machine", "icon": "Coffee" },
+        { "name": "Smeg Appliances", "icon": "Refrigerator" },
+        { "name": "Wine Cooler", "icon": "Wine" }
+      ],
+      "Bedroom & laundry": [
+        { "name": "King Size Tempur-Pedic Bed", "icon": "Bed" },
+        { "name": "Washer/Dryer", "icon": "Shirt" }
+      ],
+      "Bathroom": [
+        { "name": "Rainfall Shower", "icon": "ShowerHead" },
+        { "name": "Heated Towel Rail", "icon": "Flame" },
+        { "name": "Bamford Toiletries", "icon": "SprayCan" }
+      ]
+    },
+    "description": "Modern Shoreditch apartment with vibrant neighborhood views.",
+    "fullDescription": "Stylish apartment in Shoreditch, London’s creative quarter. Features contemporary décor, high-speed internet, and close to galleries, nightlife, and restaurants.",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "guests": 4,
+    "checkIn": "3:00 PM",
+    "checkOut": "10:00 AM"
+  },
+  "camden-lock-studios": {
+    "id": "camden-lock-studios",
+    "name": "Camden Lock Studios",
+    "location": "Camden, London",
+    "price": 150,
+    "listingName": "Studio N4 D - Camden Loft",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": ["Free WiFi", "Kitchenette", "Record Collection", "Guitar"],
+    "allAmenities": {
+      "Entertainment": [
+        { "name": "Vinyl Record Player & Collection", "icon": "Disc3" },
+        { "name": "Acoustic Guitar", "icon": "Music" }
+      ],
+      "Kitchen & dining": [
+        { "name": "Compact Fridge", "icon": "Refrigerator" },
+        { "name": "De'Longhi Espresso Maker", "icon": "Coffee" },
+        { "name": "Microwave & Induction Hob", "icon": "Flame" }
+      ],
+      "Comfort": [
+        { "name": "Queen Size Sofa Bed", "icon": "Bed" },
+        { "name": "Blackout Blinds", "icon": "Square" }
+      ],
+      "Outdoor": [{ "name": "Views of Camden Lock", "icon": "View" }]
+    },
+    "description": "Compact studio near Camden Market, ideal for short stays.",
+    "fullDescription": "A cozy and functional studio in Camden, steps from the Market and London’s live music scene. Ideal for travelers seeking convenience and culture.",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "guests": 2,
+    "checkIn": "2:00 PM",
+    "checkOut": "11:00 AM"
+  },
+  "notting-hill-retreat": {
+    "id": "notting-hill-retreat",
+    "name": "Notting Hill Retreat",
+    "location": "Notting Hill, London",
+    "price": 220,
+    "listingName": "2B W2 C - Notting Hill Retreat",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": [
+      "Private Balcony",
+      "Fully Equipped Kitchen",
+      "Smart TV",
+      "Sonos Speakers"
+    ],
+    "allAmenities": {
+      "Outdoor": [
+        { "name": "Private Balcony with Seating", "icon": "TreePine" },
+        { "name": "Charcoal BBQ", "icon": "Grill" }
+      ],
+      "Living room": [
+        { "name": "Samsung Frame TV", "icon": "Tv" },
+        { "name": "Sonos Move Speaker", "icon": "Volume2" }
+      ],
+      "Kitchen & dining": [
+        { "name": "Gas Range & Oven", "icon": "Flame" },
+        { "name": "Dishwasher", "icon": "Dishwasher" },
+        { "name": "Pantry Staples", "icon": "Container" }
+      ],
+      "Bedroom": [
+        { "name": "Hypoallergenic Pillows", "icon": "Pillow" },
+        { "name": "Dressing Table", "icon": "ScanFace" }
+      ]
+    },
+    "description": "Elegant flat with balcony views in colorful Notting Hill.",
+    "fullDescription": "A charming London flat offering bright interiors, a private balcony, and easy access to Portobello Road Market and boutique shops.",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "guests": 4,
+    "checkIn": "4:00 PM",
+    "checkOut": "11:00 AM"
+  },
+  "montmartre-loft": {
+    "id": "montmartre-loft",
+    "name": "Montmartre Loft",
+    "location": "Montmartre, Paris",
+    "price": 190,
+    "listingName": "Loft P18 A - Montmartre Paris",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": [
+      "Artist's Studio Space",
+      "Skylights",
+      "Original Artwork",
+      "Record Player"
+    ],
+    "allAmenities": {
+      "Unique features": [
+        { "name": "North-Facing Skylight", "icon": "Sun" },
+        { "name": "Easel & Drawing Supplies", "icon": "Palette" },
+        { "name": "Original Art on Walls", "icon": "GalleryVertical" }
+      ],
+      "Entertainment": [
+        { "name": "Vintage Record Player", "icon": "Disc3" },
+        { "name": "Curated Jazz Collection", "icon": "Album" }
+      ],
+      "Kitchen": [
+        { "name": "French Press", "icon": "Coffee" },
+        { "name": "Bistro Table for Two", "icon": "Utensils" }
+      ],
+      "View": [{ "name": "Glimpse of Sacré-Cœur", "icon": "Landmark" }]
+    },
+    "description": "Chic loft in Montmartre with classic Parisian charm.",
+    "fullDescription": "Romantic loft with artistic vibes, steps from Sacré-Cœur. Bright, cozy interiors perfect for couples exploring Paris.",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "guests": 2,
+    "checkIn": "3:00 PM",
+    "checkOut": "11:00 AM"
+  },
+  "champs-elysees-apartment": {
+    "id": "champs-elysees-apartment",
+    "name": "Champs-Élysées Apartment",
+    "location": "Champs-Élysées, Paris",
+    "price": 250,
+    "listingName": "3B P08 D - Champs-Élysées Flat",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": [
+      "Concierge Service",
+      "Marble Bathrooms",
+      "Premium Sound System",
+      "Valet Parking"
+    ],
+    "allAmenities": {
+      "Luxury": [
+        { "name": "24/7 Concierge", "icon": "ConciergeBell" },
+        { "name": "Valet Parking (extra)", "icon": "Car" }
+      ],
+      "Entertainment": [
+        { "name": "Bang & Olufsen Sound System", "icon": "Volume2" },
+        { "name": "Smart Home Control", "icon": "Home" }
+      ],
+      "Bathroom": [
+        { "name": "Marble Rain Shower", "icon": "ShowerHead" },
+        { "name": "Deep Soaking Tub", "icon": "Bath" },
+        { "name": "Heated Floors", "icon": "Flame" }
+      ],
+      "Kitchen": [
+        { "name": "Miele Appliances", "icon": "ChefHat" },
+        { "name": "Wine Cellar", "icon": "Wine" }
+      ]
+    },
+    "description": "Spacious luxury flat near the iconic Champs-Élysées.",
+    "fullDescription": "Enjoy modern Parisian living with elegant interiors, premium furnishings, and unbeatable location near designer boutiques and cafés.",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "guests": 6,
+    "checkIn": "2:00 PM",
+    "checkOut": "10:00 AM"
+  },
+  "kasbah-heritage-house": {
+    "id": "kasbah-heritage-house",
+    "name": "Kasbah Heritage House",
+    "location": "Kasbah, Algiers",
+    "price": 140,
+    "listingName": "2B DZ01 A - Kasbah Heritage",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": [
+      "Rooftop Terrace",
+      "Traditional Zellij Tiles",
+      "Courtyard",
+      "Mint Tea Set"
+    ],
+    "allAmenities": {
+      "Outdoor": [
+        { "name": "Rooftop Terrace with Views", "icon": "View" },
+        { "name": "Shaded Courtyard", "icon": "TreePine" }
+      ],
+      "Cultural touches": [
+        { "name": "Handcrafted Zellij Tiles", "icon": "Square" },
+        { "name": "Traditional Moroccan Tea Set", "icon": "Mug" },
+        { "name": "Local Art & Textiles", "icon": "Palette" }
+      ],
+      "Comfort": [
+        { "name": "Ceiling Fans", "icon": "Fan" },
+        { "name": "Traditional Divan Beds", "icon": "Bed" }
+      ],
+      "Kitchen": [
+        { "name": "Tagine Cooking Pot", "icon": "ChefHat" },
+        { "name": "Spice Selection", "icon": "Pepper" }
+      ]
+    },
+    "description": "Traditional house in Algiers’ historic Kasbah.",
+    "fullDescription": "Stay in a heritage-style home with authentic North African details. A perfect mix of history and comfort, ideal for cultural travelers.",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "guests": 4,
+    "checkIn": "3:00 PM",
+    "checkOut": "10:00 AM"
+  },
+  "hydra-modern-flat": {
+    "id": "hydra-modern-flat",
+    "name": "Hydra Modern Flat",
+    "location": "Hydra, Algiers",
+    "price": 160,
+    "listingName": "1B DZ07 B - Hydra Modern Flat",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": ["Fiber Internet", "Smart Home", "Balcony", "Air Purifier"],
+    "allAmenities": {
+      "Tech": [
+        { "name": "Smart Lighting & Blinds", "icon": "Lightbulb" },
+        { "name": "Google Nest Hub", "icon": "MonitorSpeaker" }
+      ],
+      "Workspace": [
+        { "name": "Ultra-Fast Fiber Internet", "icon": "Wifi" },
+        { "name": "Ergonomic Office Chair", "icon": "Chair" }
+      ],
+      "Wellness": [
+        { "name": "Dyson Air Purifier", "icon": "Wind" },
+        { "name": "Yoga Mats", "icon": "Activity" }
+      ],
+      "Outdoor": [{ "name": "Balcony with City Views", "icon": "View" }]
+    },
+    "description": "Contemporary flat in Algiers’ modern Hydra district.",
+    "fullDescription": "Sleek interiors, modern appliances, and convenient location near embassies and cafés. A perfect base for business and leisure visitors.",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "guests": 2,
+    "checkIn": "2:00 PM",
+    "checkOut": "11:00 AM"
+  },
+  "alfama-riverside-loft": {
+    "id": "alfama-riverside-loft",
+    "name": "Alfama Riverside Loft",
+    "location": "Alfama, Lisbon",
+    "price": 170,
+    "listingName": "Loft PT12 C - Alfama Riverside",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": ["River View", "Exposed Beams", "Fado Guitar", "Port Wine"],
+    "allAmenities": {
+      "View": [
+        { "name": "Direct Tejo River Views", "icon": "Ship" },
+        { "name": "Sunset Watching Spot", "icon": "Sunset" }
+      ],
+      "Cultural experience": [
+        { "name": "Portuguese Guitar", "icon": "Music" },
+        { "name": "Welcome Port & Pastéis", "icon": "Wine" }
+      ],
+      "Architecture": [
+        { "name": "Original Wooden Beams", "icon": "TreePine" },
+        { "name": "Stone Feature Wall", "icon": "Mountain" }
+      ],
+      "Kitchen": [{ "name": "Traditional Clay Cookware", "icon": "ChefHat" }]
+    },
+    "description": "Rustic loft overlooking Lisbon’s Alfama district and river.",
+    "fullDescription": "A charming loft with wooden beams, riverside views, and vibrant surroundings. Experience Fado culture right outside your doorstep.",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "guests": 2,
+    "checkIn": "3:00 PM",
+    "checkOut": "11:00 AM"
+  },
+  "bairro-alto-terrace": {
+    "id": "bairro-alto-terrace",
+    "name": "Bairro Alto Terrace",
+    "location": "Bairro Alto, Lisbon",
+    "price": 210,
+    "listingName": "2B PT14 D - Bairro Alto Terrace",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": ["Rooftop Terrace", "BBQ", "Outdoor Dining", "Hot Tub"],
+    "allAmenities": {
+      "Rooftop": [
+        { "name": "Private Hot Tub", "icon": "HotTube" },
+        { "name": "Gas Grill & BBQ Tools", "icon": "Grill" },
+        { "name": "Dining Table for 6", "icon": "Utensils" },
+        { "name": "Sun Loungers", "icon": "Sun" }
+      ],
+      "Entertainment": [
+        { "name": "Waterproof Bluetooth Speaker", "icon": "Volume2" },
+        { "name": "Board Games", "icon": "Dices" }
+      ],
+      "View": [{ "name": "360° City & River Views", "icon": "Panorama" }],
+      "Kitchen": [
+        { "name": "Cocktail Making Set", "icon": "Martini" },
+        { "name": "Ice Machine", "icon": "IceCream" }
+      ]
+    },
+    "description": "Modern Lisbon apartment with private rooftop terrace.",
+    "fullDescription": "Stay in the heart of Lisbon nightlife with a stunning terrace view. Perfect mix of comfort, modern amenities, and cultural buzz.",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "guests": 4,
+    "checkIn": "4:00 PM",
+    "checkOut": "10:00 AM"
+  }
+}
