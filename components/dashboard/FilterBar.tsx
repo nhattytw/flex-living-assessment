@@ -1,20 +1,26 @@
-"use client"
+"use client";
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Input } from "@/components/ui/input"
-import { Filter, Search } from "lucide-react"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Input } from "@/components/ui/input";
+import { Filter, Search } from "lucide-react";
 
 interface FilterBarProps {
-  filters: any
-  setFilters: (filters: any) => void
-  reviewData: any
+  filters: any;
+  setFilters: (filters: any) => void;
+  reviewData: any;
 }
 
 export function FilterBar({ filters, setFilters, reviewData }: FilterBarProps) {
   const updateFilter = (key: string, value: string) => {
-    setFilters((prev: any) => ({ ...prev, [key]: value }))
-  }
+    setFilters((prev: any) => ({ ...prev, [key]: value }));
+  };
 
   return (
     <Card>
@@ -25,7 +31,7 @@ export function FilterBar({ filters, setFilters, reviewData }: FilterBarProps) {
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
           <div className="space-y-2">
             <label className="text-sm font-medium">Search</label>
             <div className="relative">
@@ -41,7 +47,10 @@ export function FilterBar({ filters, setFilters, reviewData }: FilterBarProps) {
 
           <div className="space-y-2">
             <label className="text-sm font-medium">Rating</label>
-            <Select value={filters.rating} onValueChange={(value) => updateFilter("rating", value)}>
+            <Select
+              value={filters.rating}
+              onValueChange={(value) => updateFilter("rating", value)}
+            >
               <SelectTrigger>
                 <SelectValue />
               </SelectTrigger>
@@ -56,14 +65,17 @@ export function FilterBar({ filters, setFilters, reviewData }: FilterBarProps) {
 
           <div className="space-y-2">
             <label className="text-sm font-medium">Property</label>
-            <Select value={filters.property} onValueChange={(value) => updateFilter("property", value)}>
+            <Select
+              value={filters.property}
+              onValueChange={(value) => updateFilter("property", value)}
+            >
               <SelectTrigger>
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">All Properties</SelectItem>
                 {reviewData.summary?.reviewsByListing?.map((property: any) => (
-                  <SelectItem key={property.listing} value={property.listing} className="truncate">
+                  <SelectItem key={property.listing} value={property.listing}>
                     {property.listing}
                   </SelectItem>
                 ))}
@@ -73,7 +85,10 @@ export function FilterBar({ filters, setFilters, reviewData }: FilterBarProps) {
 
           <div className="space-y-2">
             <label className="text-sm font-medium">Time Period</label>
-            <Select value={filters.dateRange} onValueChange={(value) => updateFilter("dateRange", value)}>
+            <Select
+              value={filters.dateRange}
+              onValueChange={(value) => updateFilter("dateRange", value)}
+            >
               <SelectTrigger>
                 <SelectValue />
               </SelectTrigger>
@@ -88,5 +103,5 @@ export function FilterBar({ filters, setFilters, reviewData }: FilterBarProps) {
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }

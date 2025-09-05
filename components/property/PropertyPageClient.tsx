@@ -295,13 +295,13 @@ export function PropertyPageClient({ property }: PropertyPageClientProps) {
                       IconComponent = iconMap.Snowflake;
                       break;
                     case "Hair Dryer":
-                      IconComponent = iconMap.Truck;
+                      IconComponent = iconMap.Wind;
                       break;
                     case "Heating":
                       IconComponent = iconMap.Zap;
                       break;
                     case "Washing Machine":
-                      IconComponent = iconMap.Truck;
+                      IconComponent = iconMap.Shirt;
                       break;
                     case "Smoke Detector":
                       IconComponent = iconMap.AlertOctagon;

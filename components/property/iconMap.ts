@@ -37,7 +37,6 @@ import {
   Square,
   Snowflake,
   Zap,
-  Truck,
   AlertOctagon,
 } from "lucide-react";
 
@@ -80,6 +79,5 @@ export const iconMap: Record<string, any> = {
   Square,
   Snowflake,
   Zap,
-  Truck,
   AlertOctagon,
 };
