@@ -409,5 +409,105 @@
     "guests": 4,
     "checkIn": "4:00 PM",
     "checkOut": "10:00 AM"
+  },
+  "hyde-park-apartment": {
+    "id": "hyde-park-apartment",
+    "name": "Hyde Park Apartment",
+    "location": "Hyde Park, London",
+    "price": 260,
+    "listingName": "2B W2 A - Hyde Park Apartment",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": [
+      "Juliette Balcony",
+      "Antique Furniture",
+      "Smeg Fridge",
+      "Park Views"
+    ],
+    "allAmenities": {
+      "Living Space & Decor": [
+        { "name": "Chesterfield Sofa", "icon": "Sofa" },
+        { "name": "Antique Furnishings", "icon": "Lamp" },
+        { "name": "Original Fireplace", "icon": "Flame" }
+      ],
+      "Kitchen & Dining": [
+        { "name": "Smeg Fridge", "icon": "Refrigerator" },
+        { "name": "Le Creuset Cookware", "icon": "ChefHat" },
+        { "name": "Formal Dining Area", "icon": "Utensils" }
+      ],
+      "Bedroom Comforts": [
+        { "name": "Egyptian Cotton Sheets", "icon": "Bed" },
+        { "name": "Blackout Curtains", "icon": "Square" }
+      ],
+      "Views": [
+        { "name": "Juliette Balcony", "icon": "GalleryVertical" },
+        { "name": "Views of Hyde Park", "icon": "TreePine" }
+      ]
+    },
+    "description": "An elegant apartment with classic decor, overlooking the serene Hyde Park.",
+    "fullDescription": "Experience timeless London charm in this beautifully appointed apartment. Featuring antique furniture, modern kitchen amenities, and a Juliette balcony with stunning views of Hyde Park, it's the perfect retreat in the heart of the city.",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "guests": 4,
+    "checkIn": "3:00 PM",
+    "checkOut": "11:00 AM"
+  },
+  "brick-lane-lofts": {
+    "id": "brick-lane-lofts",
+    "name": "Brick Lane Lofts",
+    "location": "Brick Lane, London",
+    "price": 195,
+    "listingName": "1B E1 B - Brick Lane Lofts",
+    "images": [
+      "/placeholder.svg?height=500&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "amenities": [
+      "Exposed Brick Walls",
+      "Street Art Books",
+      "Projector",
+      "SMEG Fridge"
+    ],
+    "allAmenities": {
+      "Industrial Chic": [
+        { "name": "Exposed Brickwork", "icon": "BrickWall" },
+        { "name": "Polished Concrete Floors", "icon": "Square" },
+        { "name": "Crittall Windows", "icon": "GalleryHorizontal" }
+      ],
+      "Entertainment": [
+        { "name": "HD Projector", "icon": "Video" },
+        { "name": "Marshall Bluetooth Speaker", "icon": "Volume2" },
+        { "name": "Nintendo Switch", "icon": "Gamepad2" }
+      ],
+      "Creative Corner": [
+        { "name": "Collection of Street Art Books", "icon": "BookOpen" },
+        { "name": "Drafting Table", "icon": "Pen" }
+      ],
+      "Kitchen": [
+        { "name": "SMEG Fridge", "icon": "Refrigerator" },
+        { "name": "Craft Beer Selection", "icon": "Beer" }
+      ]
+    },
+    "description": "A stylish industrial loft in the heart of London's vibrant Brick Lane.",
+    "fullDescription": "Immerse yourself in the creative energy of Brick Lane with this unique loft apartment. Featuring exposed brick walls, a curated collection of street art books, and a home cinema projector, it’s an ideal space for those looking to experience London's cultural pulse.",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "guests": 2,
+    "checkIn": "2:00 PM",
+    "checkOut": "12:00 PM"
   }
 }
