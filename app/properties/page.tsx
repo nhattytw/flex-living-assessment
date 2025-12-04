@@ -17,6 +17,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import propertyData from "@/lib/mock/properties.json";
+import Image from "next/image";
 
 interface Property {
   id: string;
@@ -157,7 +158,7 @@ export default function PropertiesPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <section className="relative bg-gradient-to-r from-primary/10 to-secondary/10 py-16">
+      <section className="relative bg-linear-to-r from-primary/10 to-secondary/10 py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
@@ -201,9 +202,11 @@ export default function PropertiesPage() {
               >
                 <div className="relative">
                   <Link href={`/property/${property.slug}`}>
-                    <img
+                    <Image
                       src={property.image || "/placeholder.svg"}
                       alt={property.name}
+                      width={600}
+                      height={400}
                       className="w-full h-48 object-cover"
                     />
                   </Link>
@@ -220,7 +223,7 @@ export default function PropertiesPage() {
                         {property.location}
                       </div>
                     </div>
-                    <div className="text-right space-y-1 flex-shrink-0 ml-2">
+                    <div className="text-right space-y-1 shrink-0 ml-2">
                       {renderStars(property.rating)}
                       <div className="text-xs text-muted-foreground">
                         {property.reviewCount} reviews
@@ -228,8 +231,8 @@ export default function PropertiesPage() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="space-y-4 flex-grow flex flex-col">
-                  <p className="text-sm text-muted-foreground leading-relaxed flex-grow">
+                <CardContent className="space-y-4 grow flex flex-col">
+                  <p className="text-sm text-muted-foreground leading-relaxed grow">
                     {property.description}
                   </p>
                   <div className="flex items-center gap-4 text-sm text-muted-foreground pt-4 border-t">
