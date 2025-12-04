@@ -9,7 +9,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Input } from "@/components/ui/input";
-import { Filter, Search } from "lucide-react";
+import { Filter, Search, X } from "lucide-react";
+import { Button } from "../ui/button";
 
 interface FilterBarProps {
   filters: any;
@@ -22,14 +23,31 @@ export function FilterBar({ filters, setFilters, reviewData }: FilterBarProps) {
     setFilters((prev: any) => ({ ...prev, [key]: value }));
   };
 
+  const clearFilters = () => {
+    setFilters({
+      rating: "all",
+      property: "all",
+      dateRange: "all",
+      search: "",
+    });
+  };
+
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="flex items-center gap-2">
-          <Filter className="h-5 w-5" />
-          Filters & Search
-        </CardTitle>
+        <div className="flex items-center justify-between">
+          <CardTitle className="flex items-center gap-2">
+            <Filter className="h-5 w-5" />
+            Filters & Search
+          </CardTitle>
+
+          <Button variant="ghost" size="sm" onClick={clearFilters}>
+            <X className="mr-2 h-4 w-4" />
+            Clear Filters
+          </Button>
+        </div>
       </CardHeader>
+      
       <CardContent>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
           <div className="space-y-2">
