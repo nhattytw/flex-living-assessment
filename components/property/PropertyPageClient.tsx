@@ -25,6 +25,7 @@ import {
 } from "lucide-react";
 import { useState, useEffect } from "react";
 import { iconMap } from "./iconMap";
+import Image from "next/image";
 
 interface PropertyPageClientProps {
   property: any;
@@ -113,38 +114,48 @@ export function PropertyPageClient({ property }: PropertyPageClientProps) {
         <div className="relative mb-8">
           <div className="grid grid-cols-4 gap-2 h-164">
             <div className="col-span-2 row-span-2">
-              <img
+              <Image
                 src={property.images[0] || "/placeholder.svg"}
                 alt={property.name}
+                width={600}
+                height={400}
                 className="w-full h-full object-cover rounded-l-lg cursor-pointer"
                 onClick={() => setSelectedImageIndex(0)}
               />
             </div>
             <div className="grid grid-rows-2 gap-2">
-              <img
+              <Image
                 src={property.images[1] || "/placeholder.svg"}
                 alt="Bedroom"
+                width={600}
+                height={400}
                 className="w-full h-full object-cover cursor-pointer"
                 onClick={() => setSelectedImageIndex(1)}
               />
-              <img
+              <Image
                 src={property.images[2] || "/placeholder.svg"}
                 alt="Bathroom"
+                width={600}
+                height={400}
                 className="w-full h-full object-cover cursor-pointer"
                 onClick={() => setSelectedImageIndex(2)}
               />
             </div>
             <div className="grid grid-rows-2 gap-2">
-              <img
+              <Image
                 src={property.images[3] || "/placeholder.svg"}
                 alt="Kitchen"
+                width={600}
+                height={400}
                 className="w-full h-full object-cover rounded-tr-lg cursor-pointer"
                 onClick={() => setSelectedImageIndex(3)}
               />
               <div className="relative">
-                <img
+                <Image
                   src={property.images[4] || "/placeholder.svg"}
                   alt="View"
+                  width={600}
+                  height={400}
                   className="w-full h-full object-cover rounded-br-lg cursor-pointer"
                   onClick={() => setSelectedImageIndex(4)}
                 />
@@ -161,22 +172,26 @@ export function PropertyPageClient({ property }: PropertyPageClientProps) {
                   <DialogTitle className="text-lg font-medium mb-4"></DialogTitle>
                   <DialogContent className="max-w-4xl max-h-[90vh] p-0">
                     <div className="relative">
-                      <img
+                      <Image
                         src={
                           property.images[selectedImageIndex] ||
                           "/placeholder.svg"
                         }
                         alt={`Property image ${selectedImageIndex + 1}`}
+                        width={800}
+                        height={500}
                         className="w-full h-auto max-h-[70vh] object-contain"
                       />
                       <div className="p-4">
                         <div className="grid grid-cols-6 gap-2 mt-4">
                           {property.images.map(
                             (image: string, index: number) => (
-                              <img
+                              <Image
                                 key={index}
                                 src={image || "/placeholder.svg"}
                                 alt={`Thumbnail ${index + 1}`}
+                                width={600}
+                                height={400}
                                 className={`w-full h-16 object-cover rounded cursor-pointer border-2 ${
                                   selectedImageIndex === index
                                     ? "border-primary"
@@ -258,7 +273,7 @@ export function PropertyPageClient({ property }: PropertyPageClientProps) {
                                       key={item.name}
                                       className="flex items-center gap-3 text-sm py-1"
                                     >
-                                      <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                                      <div className="w-2 h-2 bg-green-500 rounded-full shrink-0"></div>
                                       <span className="text-gray-700 flex items-center gap-2">
                                         {IconComponent && (
                                           <IconComponent className="h-5 w-5 text-gray-600" />
