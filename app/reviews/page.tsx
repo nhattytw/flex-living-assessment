@@ -142,7 +142,7 @@ export default function ReviewsPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-primary/10 to-secondary/10 py-8 sm:py-12 md:py-16">
+      <section className="relative bg-linear-to-r from-primary/10 to-secondary/10 py-8 sm:py-12 md:py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-2 sm:mb-4">
             What Our Guests Say
@@ -245,7 +245,7 @@ export default function ReviewsPage() {
                         {renderStars(review.rating)}
                       </div>
                     </div>
-                    <div className="flex items-center gap-1 text-xs text-muted-foreground ml-2 flex-shrink-0">
+                    <div className="flex items-center gap-1 text-xs text-muted-foreground ml-2 shrink-0">
                       <Calendar className="h-3 w-3" />
                       <span className="hidden sm:inline">
                         {new Date(review.submittedAt).toLocaleDateString()}
@@ -264,7 +264,7 @@ export default function ReviewsPage() {
                   </blockquote>
 
                   <div className="flex items-center gap-1 text-xs text-muted-foreground mt-auto pt-3 sm:pt-4 border-t border-border">
-                    <MapPin className="h-3 w-3 flex-shrink-0" />
+                    <MapPin className="h-3 w-3 shrink-0" />
                     <span className="truncate text-xs">
                       {review.listingName}
                     </span>
