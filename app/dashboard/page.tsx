@@ -20,16 +20,18 @@ import { toast } from "sonner";
 
 const LOCAL_STORAGE_KEY = "approvedReviewIds";
 
+interface ReviewCategory {
+  category: string;
+  rating: number;
+}
+
 interface Review {
   id: number | string;
   type: string;
   status: string;
   rating: number | null;
   review: string;
-  categories?: Array<{
-    category: string;
-    rating: number;
-  }>;
+  categories?: ReviewCategory[];
   submittedAt: string;
   guestName: string;
   listingName: string;
@@ -43,26 +45,38 @@ interface Review {
   };
 }
 
+interface ReviewListingSummary {
+  listing: string;
+  count: number;
+  averageRating: number;
+}
+
+interface ReviewSourceSummary {
+  hostaway: number;
+  google: number;
+}
+
 interface ReviewData {
   reviews: Review[];
   summary: {
     totalReviews: number;
     averageRating: number;
     reviewsByChannel: Record<string, number>;
-    reviewsBySource?: {
-      hostaway: number;
-      google: number;
-    };
-    reviewsByListing?: Array<{
-      listing: string;
-      count: number;
-      averageRating: number;
-    }>;
+    reviewsBySource?: ReviewSourceSummary;
+    reviewsByListing?: ReviewListingSummary[];
   };
 }
 
 export default function ManagerDashboard() {
-  const [reviewData, setReviewData] = useState<ReviewData | null>(null);
+  const [reviewData, setReviewData] = useState<ReviewData>({
+    reviews: [],
+    summary: {
+      totalReviews: 0,
+      averageRating: 0,
+      reviewsByChannel: {},
+      reviewsByListing: [],
+    },
+  });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [approvedReviews, setApprovedReviews] = useState<Set<number | string>>(
@@ -223,25 +237,27 @@ export default function ManagerDashboard() {
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  {reviewData.summary?.reviewsByListing?.map((property) => (
-                    <div
-                      key={property.listing}
-                      className="flex items-center justify-between p-4 border rounded-lg"
-                    >
-                      <div>
-                        <h3 className="font-medium">{property.listing}</h3>
-                        <p className="text-sm text-muted-foreground">
-                          {property.count} reviews
-                        </p>
+                  {reviewData.summary?.reviewsByListing
+                    ?.sort((a, b) => b.count - a.count)
+                    .map((property) => (
+                      <div
+                        key={property.listing}
+                        className="flex items-center justify-between p-4 border rounded-lg"
+                      >
+                        <div>
+                          <h3 className="font-medium">{property.listing}</h3>
+                          <p className="text-sm text-muted-foreground">
+                            {property.count} reviews
+                          </p>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <Star className="h-5 w-5 fill-secondary text-secondary" />
+                          <span className="font-medium">
+                            {property.averageRating.toFixed(1)}
+                          </span>
+                        </div>
                       </div>
-                      <div className="flex items-center gap-2">
-                        <Star className="h-5 w-5 fill-secondary text-secondary" />
-                        <span className="font-medium">
-                          {property.averageRating.toFixed(1)}
-                        </span>
-                      </div>
-                    </div>
-                  ))}
+                    ))}
                 </div>
               </CardContent>
             </Card>
