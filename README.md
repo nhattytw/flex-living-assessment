@@ -24,7 +24,7 @@ This project is a comprehensive reviews management system built for Flex Living.
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/nhattytw/flex-living-assessment
     cd flex-living-assessment
     ```
 
